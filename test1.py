@@ -1,3 +1,4 @@
+# when user submits multiple input numbers through command line, if submitted count is odd print the middle value and if it is even print added middle two numbers
 name=raw_input('enter values: ') # "5 2 9 4 5 12"
 arr=name.split(' ') #["5","2","9","4","3"] 
 arr = map(int, arr)
